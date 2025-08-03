@@ -10,9 +10,9 @@ const LiveTrainerSession = () => {
   const [isVideoOff, setIsVideoOff] = useState(false);
 
   const mockTrainer = {
-    name: "Sarah Johnson",
+    name: "Big Ramy",
     avatar:
-      "https://images.pexels.com/photos/4327024/pexels-photo-4327024.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&dpr=2",
+      "https://images.pexels.com/photos/6389075/pexels-photo-6389075.jpeg?_gl=1*nbkwjc*_ga*MTkzNjc2NDY4LjE3NTQyMjM3NTA.*_ga_8JE65Q40S6*czE3NTQyMjM3NDkkbzEkZzEkdDE3NTQyMjM4MDQkajUkbDAkaDA",
     specialization: "HIIT & Strength Training",
     rating: 4.9,
     totalSessions: 1587,
