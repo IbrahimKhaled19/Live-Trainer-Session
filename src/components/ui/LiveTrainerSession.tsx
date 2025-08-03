@@ -20,13 +20,6 @@ const LiveTrainerSession = () => {
     certifications: ["NASM-CPT", "HIIT Certified", "Nutrition Coach"],
     isLive: true,
   };
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setSessionTime((prev) => prev + 1);
-    }, 1000);
-
-    return () => clearInterval(interval);
-  }, []);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
